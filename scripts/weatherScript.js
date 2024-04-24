@@ -7,8 +7,6 @@ const settings = {
     "url": "http://dataservice.accuweather.com/currentconditions/v1/53286?details=true&apikey=LBpc8o23TjwLcElAgBf7GWzwCGMzZPVG"
 };
 
-  
-    // console.log(settings);
 
     
 const url = "http://dataservice.accuweather.com/currentconditions/v1/";
