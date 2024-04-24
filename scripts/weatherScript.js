@@ -4,7 +4,7 @@ const settings = {
       "Accept": "application/json",
       "User-Agent": "Thunder Client (https://www.thunderclient.com)"
     },
-    "url": "http://dataservice.accuweather.com/currentconditions/v1/53286?details=true&apikey=LBpc8o23TjwLcElAgBf7GWzwCGMzZPVG"
+    "url": "https://dataservice.accuweather.com/currentconditions/v1/53286?details=true&apikey=LBpc8o23TjwLcElAgBf7GWzwCGMzZPVG"
 };
 
 
