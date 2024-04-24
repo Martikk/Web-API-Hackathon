@@ -34,8 +34,15 @@ main {
 
 // dad joke component
 .dad-joke {
+    margin-bottom: 4rem;
+
     &__text {
         font-size: 2rem;
+    }
+
+    &__btn-container {
+        display: flex;
+        justify-content: center;
     }
 }
 

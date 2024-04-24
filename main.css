@@ -31,8 +31,15 @@ main {
   text-align: center;
 }
 
+.dad-joke {
+  margin-bottom: 4rem;
+}
 .dad-joke__text {
   font-size: 2rem;
+}
+.dad-joke__btn-container {
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
