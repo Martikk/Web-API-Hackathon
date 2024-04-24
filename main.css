@@ -31,6 +31,10 @@ main {
   text-align: center;
 }
 
+.dad-joke__text {
+  font-size: 2rem;
+}
+
 .btn {
   cursor: pointer;
   border-radius: 10%;
