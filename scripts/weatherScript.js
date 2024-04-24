@@ -9,7 +9,7 @@ const settings = {
 
 
     
-const url = "http://dataservice.accuweather.com/currentconditions/v1/";
+const url = "https://dataservice.accuweather.com/currentconditions/v1/";
 const apiKey = "LBpc8o23TjwLcElAgBf7GWzwCGMzZPVG";
 const locationKey = 53286;
 
