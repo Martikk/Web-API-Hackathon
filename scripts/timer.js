@@ -2,7 +2,7 @@ const timerDisplay = document.getElementById('timer');
 const addButton = document.getElementById('add');
 const subtractButton = document.getElementById('subtract');
 const startButton = document.getElementById('start');
-const pauseButton = document.getElementById ('pause')
+const pauseButton = document.getElementById ('pause');
 
 let minutes = 0;
 let seconds = 0;
@@ -47,7 +47,6 @@ function startTimer () {
 }
 
 function pauseTimer() {
-    console.log("pauseTimer()");
     if (timerInterval !== null) {
         clearInterval (timerInterval);
         timerInterval = null;
