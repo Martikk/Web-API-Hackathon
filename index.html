@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="main.css">
+
 </head>
+
 <body>
-    <div class="timer-container">
-        <label for="duration">Choose timer duration:</label>
-        <select id="duration" onchange="setDuration(this.value)">
-            <!-- JavaScript -->
-        </select>
-        <h1 id="timer">00:25</h1>
-        <button onclick="startTimer()">Start</button>
-        <button onclick="pauseTimer()">Pause</button>
-        <button onclick="resetTimer()">Reset</button>
-    </div>
-    <script src="main.js"></script>
+<header>
+    <h1>Dad Jokes</h1>
+</header>
+    <main>
+        <!-- <section class="timer">
+            <div class="timer__container"> -->
+                <!-- <label for="duration">Choose timer duration:</label>
+                <select id="duration" onchange="setDuration(this.value)"> -->
+                    <!-- JavaScript -->
+                <!-- </select>
+                <h1 class="timer__clock" id="timer">00:25</h1>
+                <button class="btn btn--timer" onclick="startTimer()">Start</button>
+                <button class="btn btn--timer" onclick="pauseTimer()">Pause</button>
+                <button class="btn btn--timer" onclick="resetTimer()">Reset</button>
+            </div> -->
+    <section class="timer">
+        <div class="timer__container">
+        <div class="timer__set">
+            <button class="btn--timer" id="subtract">-1 Min</button>
+            <span id="timer">00:00</span>
+            <button class="btn--timer" id="add">+1 Min</button>
+        </div>
+        <div class="timer__controls">
+            <button class="btn--timer" id="start">Start</button>
+            <button class="btn--timer" id="pause">Pause</button>
+        </div>
+    </section>
+    
+    
+        <section class="dad-joke">
+            <div class="dad-joke__container">
+            
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/timer.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
+
 </html>
