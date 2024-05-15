@@ -1,7 +1,5 @@
 # Bug Buster Jokes
 
-![Project Banner](https://www.martishyn.ca/images/banner.png)
-
 Welcome to **Bug Buster Jokes**, an interactive web application designed to provide a mix of functionality and humor. This project combines a Pomodoro timer, a dad joke generator, and real-time weather updates. 
 
 ## Table of Contents
