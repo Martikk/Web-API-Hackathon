@@ -10,7 +10,7 @@ Welcome to **Bug Buster Jokes**, an interactive web application designed to prov
 - [Project Structure](#project-structure)
 
 ## Demo
-Check out the live demo [here](https://www.martishyn.ca/).
+Check out the live demo [here](https://master.d3gvo2kut978aw.amplifyapp.com).
 
 ## Features
 - **Pomodoro Timer**: A simple timer to help you manage your work and break intervals.
